@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import layout from './ember-collection/template';
 import needsRevalidate from '../utils/needs-revalidate';
-var decodeEachKey = Ember.__loader.require('ember-htmlbars/utils/decode-each-key')['default'];
+import decodeEachKey from '../utils/decode-each-key';
 const { get, set } = Ember;
 
 class Cell {
